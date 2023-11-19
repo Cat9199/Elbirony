@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "elbirony",
-    "slug": "elbirony",
-    "version": "1.0.0",
+    "name": "Elbirony",
+    "slug": "Elbirony",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash1.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#151f33"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/adaptive-icon1.png",
+        "backgroundColor": "#151f33"
+      },
+      "package": "com.cat9199.Elbirony",
+      "versionCode" : 2 
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dd8a3121-5587-433c-8505-1ce1e7ec0574"
+      }
     }
   }
 }
